@@ -1,0 +1,18 @@
+public void DeleteHead()
+    {
+        if(head!=null)
+            head = head.next;
+    }
+
+public void DeleteTail()
+    {
+        if(head==null) return;
+        if(head.next==null)
+        {
+            head = null;
+            return;
+        }
+        Node h = head;
+        while(h.next.next!=null) h=h.next;
+        h.next = null;
+    }
