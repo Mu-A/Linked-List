@@ -1,0 +1,6 @@
+ public void AddHead(int v)
+    {
+        Node t = new Node(v);
+        t.next = head;
+        head = t;
+    }
