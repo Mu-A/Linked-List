@@ -1,0 +1,10 @@
+public void Print()
+    {
+        Node h = head;
+        while(h!=null)
+        {
+            System.out.print("->"+h.value);
+            h = h.next;
+        }
+        System.out.println();
+    }
