@@ -1,0 +1,11 @@
+ public int Length()
+    {
+        int size = 0;
+        Node h = head;
+        while(h!=null)
+        {
+            size++;
+            h = h.next;
+        }
+        return size;
+    }
